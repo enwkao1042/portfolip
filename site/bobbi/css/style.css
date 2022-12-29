@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-* {margin: 0; padding: 0; box-sizing: border-box; /*margin: auto;*/}
-html, body {
-    font:15px/180% 'Nanum Gothic', sans-serif;  /*max-width: 2000px; margin:auto;*/
-}
+* 	    {margin: 0; padding: 0; box-sizing: border-box;}
+::-webkit-scrollbar 	{width:0px;}
+html 	    {scroll-behavior:smooth;}
+html, body  {font:15px/180% 'Nanum Gothic', sans-serif;}
 img         {max-width: 100%; display: block;}
 
 /*header*/
