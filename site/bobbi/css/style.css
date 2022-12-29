@@ -55,7 +55,7 @@ main p  {margin-top: 10px; font-size: 1rem; margin-bottom:50px;}
 	 /*height:1000px;*/ align-items:flex-start;
 }
 #holy> div 		   {flex:1; margin:auto;}
-#holy> div h3	   {font-size: 1.3rem; font-weight: 800; margin-top: 20px;}
+#holy> div h3	   {font-size: 1.3rem; font-weight: 800; margin-top: 20px; margin-bottom:15px;}
 #holy> div p	   {font-size: 16px; margin-top: -7px; color: #666;}
 #holy a 		   {}
 #holy> div img 	   {width:100%; max-width:300px; height:auto; margin:auto; margin-top: 50px;}
