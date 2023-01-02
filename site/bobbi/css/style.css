@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-* 	    {margin: 0; padding: 0; box-sizing: border-box;}
-html 	    {scroll-behavior: smooth;}
+* 			{margin: 0; padding: 0; box-sizing: border-box;}
+html 		{scroll-behavior: smooth;}
 ::-webkit-scrollbar {width:0px;}
 html 	    {scroll-behavior:smooth;}
 html, body  {font:15px/180% 'Nanum Gothic', sans-serif;}
@@ -167,7 +167,10 @@ footer				{
 #con ::placeholder, #con textarea {color:black; font-family:'Nanum Gothic';}
 #con button		{margin-top:20px; background:black; border:none; padding:10px; color:white; float:right;}
 
-#menu iframe		{display:block; width:100%; max-width:1200px; height:300px; margin-top:50px; border:none;}
+#menu iframe		{
+		display:block; width:100%; max-width:1200px; height:300px;
+		margin-top:50px; border:none;
+}
 #menu>ul			{
 	display:flex; list-style:none; background:black;
 	font-size:8pt; margin-top:10px; padding:8px;
@@ -182,20 +185,40 @@ footer				{
 	nav ul {align-items:flex-start; justify-content:space-between; overflow:hidden; }
 	ul li  {margin-left:0px; margin-right:0px; padding-bottom:10px;}
 	nav>ul a {font-size:0.9rem; letter-spacing:-1px;}
-	#holy {}
 }
 @media(max-width:600px){
 		#slide img{height:33vh;}
 		#holy,#con {flex-direction:column;}
-		#con> *  {width:100%;}
+		#con> *  {width:80%;}
 		#con h2  {text-align:center; padding-bottom:20px;}
 		main     {margin-top:-50px;}
 		main h2  {font-size:1.8rem;}
 		main h3  {padding-bottom:5px;}
 		main p   {font-size:0.85rem; padding:0 10px 0;}
 		header h1 img {margin-left:65px;}
-		footer	 {padding-bottom:0; width:90%;}
-		#menu    {width:100%;}
+		footer	 {padding-bottom:0; width:100%;}
 		#menu>ul {font-size:0.3rem;}
-		
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
