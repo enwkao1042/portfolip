@@ -193,7 +193,7 @@ footer				{
 		main h2  {font-size:1.8rem;}
 		main p   {font-size:0.85rem; padding:0 10px 0;}
 		header h1 img {margin-left:65px;}
-		footer	 {padding-bottom:0;}
+		footer	 {padding-bottom:0; width:90%;}
 		#menu    {width:100%;}
 		#menu>ul {font-size:0.3rem;}
 		
