@@ -75,10 +75,16 @@ nav>ul li a:hover {color:#c7a063;}
 	.tit {text-align:center;}
 }	
 	@media(max-width:749px){
-		#new, #subMenu {flex-direction:column;}
+		#slide img{height:30vh;}
+		header h1 img {margin-left:65px;}
+		#new, #subMenu  {flex-direction:column;}
 		#subMenu .list	{flex-wrap:wrap;}
-		.virt {padding-bottom:15px;}
-		.menu p {font-size:0.95rem;}
+		.virt 			{padding-bottom:15px;}
+		footer 			{margin-top:-65px;}
+		.menu			{}
+		.menu p 		{font-size:0.85rem; width:90%;}
+		.menu  		    {width:90%;}
+		.menu ul a 		{font-size:0.3rem; padding-right:5px;}
 	}	
 	
 	
