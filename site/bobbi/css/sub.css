@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+* 			{margin: 0; padding: 0; box-sizing: border-box; margin: auto;}
+html 		{scroll-behavior: smooth;}
+::-webkit-scrollbar {width:0px;}
+html, body  {font:15px/180% 'Nanum Gothic', sans-serif;}
+img         {max-width: 100%; display: block;}
+a 		 	{color:black; text-decoration:none;}
+
+#layout p  	{color:#666;}
+/*상단 디자인*/
+header      {background: black;}
+header div 	{max-width:2000px; margin:auto; border:0px solid blue;}
+header h1	{display:inline-block; margin:20px 0 20px 50px;}
+
+#slide img  {height:40vh;}
+
+/*nav 디자인*/
+header nav  {
+	color:white; font-size: 1.3rem; font-weight: bold; float:right;
+	padding: 25px 20px 20px 0;
+}
+nav>ul a	{color:white; text-decoration:none;}
+nav ul {list-style:none; display:flex;}
+ul li  {margin-left:20px; margin-right:30px; font-weight:700;}
+nav>ul li a:hover {color:#c7a063;}
+
+/*main 디자인*/
+ .tit	{
+	text-align:left; padding:70px 0 30px 0; font-size:2rem;
+	border-bottom:2px solid black; width:80%; margin-bottom:70px;
+}
+.subTit {
+	text-align:center;
+	padding:30px 0 30px 0; font-size:1.7rem;
+}
+.blue {background:#bce6f8; margin:100px 0 100px 0; padding:30px;}
+.blue img:hover {border:2px solid #95ceff;}
+.pink {background:#ffe9f9; margin:100px 0 100px 0; padding:30px;}
+.pink img:hover {border:2px solid #ff82f2;}
+
+#subMenu .list	 {display:flex; text-align:center;}
+#subMenu .list p {margin:10px; color:#555;}
+#subMenu .list a {font-weight:600;}
+#subMenu div img {width:60%;}
+
+
+#new	 {
+	display:flex; justify-content: space-around;
+	text-align:center; margin-bottom:70px;
+	}
+#new h3  {font-size: 1.3rem; font-weight: 800; margin-top: 20px;}
+#new p 	 {font-size: 15px;  color: #666; margin-bottom:25px; padding-top:10px;}
+#new div img {width:60%;}
+#new button  {padding:10px; color:white; background:black; border:none;}
+
+/*하단 디자인*/
+.menu    {width:80%; margin-top:-50px; color:white;}
+.menu p  {padding-bottom:30px; color:black;}
+.menu img{margin-bottom:5px;}
+.menu ul {display:flex; list-style:none; text-align:center; padding:10px; background:black;}
+.menu li {flex:1; font-size:8pt;}
+.menu li a {color:white;}
+.menu>ul a:hover  {text-decoration: underline;}
+
+/******************************************************************************************/
+@media all and (max-width:992px){
+	
+	#layout>h1 img {margin:auto;}	
+	header nav {float:none; padding-left:20px;padding: 10px;}
+	nav ul {align-items:flex-start; justify-content:space-between; overflow:hidden; }
+	ul li  {margin-left:0px; margin-right:0px; padding-bottom:10px;}
+	nav>ul a {font-size:0.9rem; letter-spacing:-1px;}
+}	
+	@media(max-width:749px){
+		#new, #subMenu {flex-direction:column;}
+		#subMenu .list	{flex-wrap:wrap;}
+		.virt {padding-bottom:15px;}
+		.menu p {font-size:0.95rem;}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
