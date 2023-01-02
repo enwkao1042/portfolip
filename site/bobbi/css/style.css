@@ -191,6 +191,7 @@ footer				{
 		#con h2  {text-align:center; padding-bottom:20px;}
 		main     {margin-top:-50px;}
 		main h2  {font-size:1.8rem;}
+		main h3  {padding-bottom:5px;}
 		main p   {font-size:0.85rem; padding:0 10px 0;}
 		header h1 img {margin-left:65px;}
 		footer	 {padding-bottom:0; width:90%;}
