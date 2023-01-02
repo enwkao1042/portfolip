@@ -24,11 +24,11 @@ nav>ul a	{color:white; text-decoration:none;}
 nav ul {list-style:none; display:flex;}
 ul li  {margin-left:20px; margin-right:30px; font-weight:700;}
 nav>ul li a:hover {color:#c7a063;}
-.click a{color:#c7a063;}
+.click a		  {color:#c7a063;}
 
 /*main 디자인*/
  .tit	{
-	text-align:left; padding:70px 0 30px 0; font-size:2rem;
+	text-align:center; padding:70px 0 30px 0; font-size:2rem;
 	border-bottom:2px solid black; width:80%; margin-bottom:70px;
 }
 .subTit {
@@ -42,7 +42,7 @@ nav>ul li a:hover {color:#c7a063;}
 
 #subMenu .list	 {display:flex; text-align:center;}
 #subMenu .list p {margin:10px; color:#555;}
-#subMenu .list a {font-weight:600;}
+#subMenu .list a {font-weight:700;}
 #subMenu div img {width:60%;}
 
 
@@ -58,7 +58,7 @@ nav>ul li a:hover {color:#c7a063;}
 /*하단 디자인*/
 .menu    {width:80%; margin-top:-50px; color:white;}
 .menu p  {padding-bottom:30px; color:black;}
-.menu img{margin-bottom:5px;}
+.menu img{margin-bottom:3px;}
 .menu ul {display:flex; list-style:none; text-align:center; padding:10px; background:black;}
 .menu li {flex:1; font-size:8pt;}
 .menu li a {color:white;}
@@ -72,7 +72,7 @@ nav>ul li a:hover {color:#c7a063;}
 	nav ul {align-items:flex-start; justify-content:space-between; overflow:hidden; }
 	ul li  {margin-left:0px; margin-right:0px; padding-bottom:10px;}
 	nav>ul a {font-size:0.9rem; letter-spacing:-1px;}
-	.tit {text-align:center;}
+
 }	
 	@media(max-width:749px){
 		#slide img{height:30vh;}
