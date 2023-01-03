@@ -86,26 +86,26 @@ aside		{margin-bottom:25px; margin-top:10px;}
 /******************************************************************************************/
 @media all and (max-width:992px){
 	
-	#layout>h1 img {margin:auto;}	
-	header nav {float:none; padding-left:20px;padding: 10px;}
-	nav ul {align-items:flex-start; justify-content:space-between; overflow:hidden; }
-	ul li  {margin-left:0px; margin-right:0px; padding-bottom:10px;}
-	nav>ul a {font-size:0.9rem; letter-spacing:-1px;}
+	#layout>h1 img 	{margin:auto;}	
+	header nav      {float:none; padding-left:20px;padding: 10px;}
+	nav ul		{align-items:flex-start; justify-content:space-between; overflow:hidden; }
+	ul li  		{margin-left:0px; margin-right:0px; padding-bottom:10px;}
+	nav>ul a 	{font-size:0.9rem; letter-spacing:-1px;}
 	
 }	
 	@media(max-width:699px){
 		#slide img	  {height:30vh;}
-		header h1 img {margin-left:65px;}
+		header h1 img 	  {margin-left:60px;}
 		#new		  {flex-direction:column;}
 		.list, .all	  {flex-wrap:wrap;}
 		.virt 		  {padding-bottom:15px;}
 		.txt		  {width:100%;} 
-		.art h3 	   {padding:20px 0 20px 0;}
-		.art div p 	   {font-size:10pt; padding:10px;}
-		.art div img   {width:75%;}
-		.menu p 	   {font-size:0.85rem; width:90%;}
-		.menu  		   {width:100%;}
-		.menu ul a 	   {font-size:0.3rem; padding-right:5px;}
+		.art h3 	  {padding:20px 0 20px 0;}
+		.art div p 	  {font-size:10pt; padding:10px;}
+		.art div img  	  {width:75%;}
+		.menu p 	  {font-size:0.85rem; width:90%;}
+		.menu  		  {width:100%;}
+		.menu ul a 	  {font-size:0.3rem; padding-right:5px;}
 	}	
 	
 
