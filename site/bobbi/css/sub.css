@@ -67,23 +67,22 @@ nav>ul li a:hover {color:#c7a063;}
 /******************************************************************************************/
 @media all and (max-width:992px){
 	
-	#layout>h1 img {margin:auto;}	
-	header nav {float:none; padding-left:20px;padding: 10px;}
-	nav ul {align-items:flex-start; justify-content:space-between; overflow:hidden; }
-	ul li  {margin-left:0px; margin-right:0px; padding-bottom:10px;}
-	nav>ul a {font-size:0.9rem; letter-spacing:-1px;}
+	#layout>h1 img 	 {margin:auto;}	
+	header nav	 {float:none; padding-left:20px;padding: 10px;}
+	nav ul		 {align-items:flex-start; justify-content:space-between; overflow:hidden; }
+	ul li  		 {margin-left:0px; margin-right:0px; padding-bottom:10px;}
+	nav>ul a	 {font-size:0.9rem; letter-spacing:-1px;}
 
 }	
 	@media(max-width:749px){
-		#slide img{height:30vh;}
-		header h1 img {margin-left:65px;}
-		#new, #subMenu  {flex-direction:column;}
-		#subMenu .list	{flex-wrap:wrap;}
+		#slide img		{height:30vh;}
+		header h1 img		{margin-left:60px;}
+		#new, #subMenu 		{flex-direction:column;}
+		#subMenu .list		{flex-wrap:wrap;}
 		.virt 			{padding-bottom:15px;}
 		footer 			{margin-top:-65px;}
-		.menu			{}
 		.menu p 		{font-size:0.85rem; width:90%;}
-		.menu  		    {width:100%;}
+		.menu  		 	{width:100%;}
 		.menu ul a 		{font-size:0.3rem; padding-right:5px;}
 	}	
 	
