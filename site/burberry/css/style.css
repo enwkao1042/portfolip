@@ -165,7 +165,7 @@ main .text  {font-size:10.5pt; padding-top:10px;}
 
 /*footer*/
 footer {
-	 margin-top: 30px; width:100%; max-width:1900px; flex-wrap:wrap; }
+	 margin-top: 30px; width:100%; max-width:2000px; flex-wrap:wrap; }
 
 footer iframe {display:flex; width:1227px; height:500px; margin-top:50px; margin:0 auto;}
 footer ul {
