@@ -108,6 +108,10 @@ nav p {
 #about section:nth-child(2){
 	flex:2; padding-right:20px;
 }
+#exper .ex {
+	border-bottom:1px solid skyblue; margin-bottom: 10px; 
+	padding-bottom: 10px; width:85%;
+}
 /*skill*/
 #skill  {
 	flex:1.2;
