@@ -44,12 +44,12 @@ nav>ul li a:hover {color:#c7a063;}
 .virt:hover > img:first-child {display:none;}
 
 /*하우 투 뷰티 디자인*/
-.list {border:0px solid red;
+.list {
 	display:flex; justify-content: space-around;
-	flex-wrap:wrap; width:80%; margin-bottom:65px;
+	flex-wrap:wrap; width:100%; margin-bottom:65px;
 }
-.list div {margin-bottom:15px;}
-.list img {width:50%;}
+.list div {margin-bottom:15px; width:45%;}
+.list img {width:70%;}
 .list h3  {margin-top:15px;}
 .list p	  {margin-bottom:15px; text-align:justify;}
 .list p, .list h3 {width:70%;}
@@ -98,6 +98,7 @@ aside		{margin-bottom:25px; margin-top:10px;}
 		header h1 img 	  {margin-left:60px;}
 		#new		  {flex-direction:column;}
 		.list, .all	  {flex-wrap:wrap;}
+		.list div    	  {width:100%;}
 		.virt 		  {padding-bottom:15px;}
 		.txt		  {width:100%;} 
 		.art h3 	  {padding:20px 0 20px 0;}
