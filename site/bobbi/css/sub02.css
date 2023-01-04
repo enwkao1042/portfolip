@@ -44,7 +44,7 @@ nav>ul li a:hover {color:#c7a063;}
 .virt:hover > img:first-child {display:none;}
 
 /*하우 투 뷰티 디자인*/
-.list {border:1px solid red;
+.list {border:0px solid red;
 	display:flex; justify-content: space-around;
 	flex-wrap:wrap; width:80%; margin-bottom:65px;
 }
