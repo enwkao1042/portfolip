@@ -11,7 +11,7 @@ a 		   {color:black;}
 
 /*상단*/
 #head     {
-	position:fixed; width:100vw;
+	position:fixed; width:55vw;
 	display:flex; padding:25px;
 	}
 	
