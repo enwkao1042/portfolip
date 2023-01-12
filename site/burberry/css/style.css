@@ -128,7 +128,7 @@ main .text  {font-size:10.5pt; padding-top:10px;}
 
 #jun		 {display:flex;}
 #jun .ex     {width:30%; margin-right: 1px;}
-#jun .ex .look:hover {transform:translateY(-23px); font-weight: 600;}
+#jun .ex .look:hover {color:#e6cca3; font-weight: 600;}
 
 .infor		{
 	text-align: right; margin: auto; flex: 1; padding: 20px;
