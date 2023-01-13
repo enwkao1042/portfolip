@@ -269,16 +269,24 @@ nav p {
 /************************************************/
 /*600픽셀이하 넓이에 해당되는 브라우저에서 이 디자인들이 적용됨.*/
 @media(max-width:800px){
-	nav {padding:10pt 5pt 5pt 5pt;}
-	nav>div {flex-direction:column;}
-	nav p  	{margin-bottom:5pt;}
+	body    {width: 107.4vw;}
+
+	nav 	{padding:10pt 5pt 5pt 5pt; display: flex; }
+	nav>div {flex-direction:column; }
+	nav p  	{margin-bottom:5pt; margin:auto; padding-bottom: 10px;}
 	
 	#menu a:first-child {margin-left:0;}
 	#menu a {font-size:0.9rem; }
 	#typing {font-size:2rem;}
 	
-	#about> div {flex-direction:column; padding:0 10pt;}
+	#about> div {
+		flex-direction:column; padding:0 10pt; width:80%;
+		text-align: center;
+	}
 	#about img 	{width:200px;}
+
+	#exper .ex {width:107%;}
+
 	#skill label{width:38%;}
 	#skill progress {width:58%;}
 	
@@ -290,18 +298,20 @@ nav p {
 	#portfolio section:not(:first-child){padding-top:0vh;}
 	#portfolio ul {padding-bottom:10pt;}
 	#portfolio li {flex-direction:column;}	
-	#portfolio a {padding:4pt 6pt 5px 6px;}
+	#portfolio a  {padding:4pt 6pt 5px 6px;}
 		
 	#port1 {padding-top:0; transform:translateY(0pt); opacity:1;}
 	
-	#port2 {padding-bottom:100pt;}
+	#port2 			{padding-bottom:100pt;}
 	#port2 div.left {transform:translateX(0);}
 	#port2 div.right{transform:translate(0,30pt); z-index:1;}
 	
-	#port3 {padding-top:30vh;}
-	#port3 img {transform:translateY(0pt);}
-	#port3 div.left {padding-top:30pt; transform:scale(1);}
+	#port3 			 {padding-top:30vh;}
+	#port3 img       {transform:translateY(0pt);}
+	#port3 div.left  {padding-top:30pt; transform:scale(1);}
 	#port3 div.right {transform:scale(1);}
+
+	#contact p 		 {font-size: 0.95rem; padding-left: 5px;}
 }
 
 
