@@ -311,7 +311,9 @@ nav p {
 	#port3 div.left  {padding-top:30pt; transform:scale(1);}
 	#port3 div.right {transform:scale(1);}
 
-	#contact p 		 {font-size: 0.95rem; padding-left: 5px;}
+	#contact>div	 {/*border: 1px solid red;*/ font-size: 0.45rem;}
+	#contact>h3	 {text-align: center;}
+	#contact p 	 {font-size: 0.55rem; }	
 }
 
 
