@@ -269,8 +269,6 @@ nav p {
 /************************************************/
 /*600픽셀이하 넓이에 해당되는 브라우저에서 이 디자인들이 적용됨.*/
 @media(max-width:800px){
-	body    {width: 107.4vw;}
-
 	nav 	{padding:10pt 5pt 5pt 5pt; display: flex; }
 	nav>div {flex-direction:column; }
 	nav p  	{margin-bottom:5pt; margin:auto; padding-bottom: 10px;}
